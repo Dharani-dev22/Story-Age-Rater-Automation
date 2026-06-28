@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Story Age-Rater</title>
+</head>
+<body>
+    <h2>Children's Story Age-Rater</h2>
+    <input type="text" id="story-input" style="width: 300px;">
+    <button id="analyze-btn" onclick="analyze()">Analyze</button>
+    <br><br>
+    <div id="age-rating-result" style="font-weight: bold; font-size: 20px;"></div>
+
+    <script>
+        function analyze() {
+            let text = document.getElementById("story-input").value;
+            let result = document.getElementById("age-rating-result");
+            
+            if (text.length < 30) {
+                result.innerText = "Ages 4-6";
+            } else {
+                result.innerText = "Too Complex";
+            }
+        }
+    </script>
+</body>
+</html>
