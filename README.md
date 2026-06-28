@@ -37,7 +37,7 @@ An automated testing script built with Java and Selenium WebDriver to validate t
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+   git clone [https://github.com/Dharani-dev22/Story-Age-Rater-Automation.git](https://github.com/Dharani-dev22/Story-Age-Rater-Automation.git)
    ```
 
 2. **Open the project:**
